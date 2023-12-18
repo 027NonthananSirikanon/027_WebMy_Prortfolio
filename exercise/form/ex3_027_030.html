@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Learning 3:Form</title>
+</head>
+<body>
+    <h1>รายชื่อ</h1>
+    <ul>
+        <li>นาย นนทนันท์ ศิริกานนท์ 6540011027</li>
+        <li>นาย นันทวัฒน์ หนูรอด 6540011030</li>
+    </ul>
+    <h1>ลงทะเบียนศิษเก่าIT+IS</h1>
+    <form action="https://www.example.com/" method="post">
+
+        <label for="Username">ชื่อ-สกุล:</label>
+      <input type="text" name="username" value="" placeholder="ชื่อ-สกุล" size="10" maxlength="20"/>
+      
+      <br>
+      <label for="Password">รหัสนักศึกษา:</label>
+      <input type="password" name="username" value="" placeholder="รหัสนักศึกษา" size="15" maxlength="10"/>
+
+      <br>
+      <label for="gender">เพศ:</label>
+      <input type="radio" name="gender" value="1">ชาย
+      <input type="radio" name="gender" value="2">หญิง
+      
+      <br>
+      <label for="Academic yearEducation">ปีการเข้ารับศึกษา:</label>
+      <input type="text" name="Academic yearEducation" value="" placeholder="" size="10" maxlength="20"/>
+
+      <br>
+      <label for="address">ที่อยู่:</label>
+      <br>
+      <textarea name="address"cols="30" rows="6">ที่อยู่</textarea>
+
+      <br>
+      <label for="Email">Email:</label>
+      <input type="email" name="email" value="" placeholder="" size="15" maxlength="">
+
+
+      <br>
+      <label for="number">เบอร์ติดต่อ:</label>
+      <input type="text" name="number" value="" placeholder="080-0000000" size="10" maxlength="20"/>
+
+      <br>
+      <label for="major">ชื่อหลักสูตร:</label>
+      <input type="radio" name="major" value="1">IT
+      <input type="radio" name="major" value="2">IS 
+
+      <br>
+      <label for="่job">อาชีพปัจจุบัน:</label>
+      <input type="text" name="job" value="" placeholder="" size="10" maxlength="20"/>
+
+      <br>
+      <label for="Place of work">สถานที่ทำงาน:</label>
+      <br>
+      <textarea name="Place of work"cols="30" rows="6"> ระบุชื่อบริษัท และที่อยู่</textarea>  
+      
+      <br>
+      <label for="Dropdown list box">ระบุประเภทงานที่ทำ:</label>
+      <select name="dept" >
+        <option value="1">Web Developer</option>
+        <option value="2"> SA</option>
+        <option value="3"> Graphic Design</option>
+        <option value="4"> Digital Marketing</option>
+      </select>
+
+      <br>
+      <label for="profilepic">ให้ upload รูปถ่ายตนเอง 1 รูป :</label>
+      <input type="file" name="profilepic">
+
+      <br>
+      <input type="submit" value="ลงทะเบียน">
+      <input type="reset" value="ยกเลิก">
+
+
+    </form>
+
+</body>
+</html>
