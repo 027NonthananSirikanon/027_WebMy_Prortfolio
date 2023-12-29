@@ -1,0 +1,97 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+ body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  h1,h2{
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box-1 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .box-1 img{
+    border-radius:10px;
+  }
+
+  .box-1-1 {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .box-2 {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+  }
+  .box-2 ul{
+    list-style: none;
+    text-align: center;
+  }
+  
+  .box-2-1 {
+    margin-top: 30px;
+  }
+
+  .box-2-2 {
+    margin-top: 30px;
+  }
+  
+  label, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+  }
+  
