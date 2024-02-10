@@ -83,6 +83,7 @@ img {
     
 }
 
+
 /* st main */
 .main{
     background-color: #365486;
@@ -103,6 +104,12 @@ img {
 
 
  /* st performance  */
+ .performance{
+  background-color:#F5F3F3;
+  border-radius: 20px;
+  height: auto;
+  width: auto;
+ }
  .box-pfm{
   color: white;
   width: 280px;
