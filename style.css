@@ -1,3 +1,6 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
 /* button */
 .button-80 {
     background: #fff;
@@ -85,6 +88,7 @@ img {
 @media (min-width: 576px ) and (max-width: 1200px){ 
   .ftmain{
     text-align: center;
+    font-weight: bolder;
   }
   .image{
     display: none;
